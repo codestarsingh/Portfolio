@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    color: #40514E;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -50,6 +49,7 @@ a:hover {
     padding-top: 100px;
 }
 .middle-container {
+    background-color: white;
     margin: 100px 0;
 }
 .bottom-container {
@@ -129,4 +129,7 @@ a:hover {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+}
+.profile,.contact-me, .skills,.skill-row, .computer-image, .teamwork-image{
+    background-color: white;
 }
